@@ -1,0 +1,60 @@
+/* 調整用スタイル */
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+
+main {
+  background-color: #f1f1f1;
+  height: 800px;
+  display: flex;
+}
+
+
+.main {
+  margin: auto;
+}
+
+.footer {
+  background-color: #f6f6f6;
+  height: 200px;
+  display: flex;
+}
+
+.footer div {
+  margin: auto;
+}
+
+// ここから
+.l-header {
+    background-color: #dddddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.p-header__title {
+    padding: 0 20px;
+}
+
+.p-nav-items {
+    display: flex;
+}
+
+
+.p-nav-item {
+    margin: 0 30px;
+}
+
+@media screen and (max-width: 960px) {
+    .p-header__nav {
+        transform: translateX(100%);
+    }
+}
+
