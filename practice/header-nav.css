@@ -37,11 +37,20 @@ main {
   height: 100px;
 }
 
+.p-header__inner {
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: inherit;
+  position: relative;
+}
+
 .p-header__title {
   padding: 0 20px;
 }
 
-.p-nav__items {
+.p-navItems {
   display: flex;
   margin-left: 500px;
 }
@@ -110,6 +119,10 @@ main {
     width: 120px;
   }
   .p-header__nav {
+    position: static;
+    transform: initial;
+    background-color: inherit;
+    height: inherit;
     display: flex;
     justify-content: end;
     width: 50%;
